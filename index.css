@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(0, 0, 0); /* Change background color to pink */
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: #082355; /* Change hover background color to a lighter shade of pink */
+}

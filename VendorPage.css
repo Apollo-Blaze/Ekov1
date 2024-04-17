@@ -1,0 +1,187 @@
+/* Search.css */
+
+.hero{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  
+  box-shadow: 0 7px 20px 5px #00000088;
+  border-radius: .7rem;
+
+  overflow: hidden;
+  transition: .5s all; /* Blackish gray background for the container */
+    padding: 20px;
+    border-radius: 8px;
+    height:50vh;
+    width: 35vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 400px;
+    margin-bottom: 8px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e6e6e6;
+  background: linear-gradient(0deg, rgb(13, 29, 60) 0%, rgba(89, 179, 207, 0.548) 100%);
+}
+
+h1, h2 {
+    color: #88c0d0; /* Lighter color for the headings */
+}
+
+.lol {
+  position: relative;
+  width:50vh;
+  color: white;
+    display: block;
+    margin-bottom: 8px;
+    justify-content: center;
+}
+.f2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tt{
+  position: relative;
+    width: 50vh;
+    padding: 8px;
+    margin-top: 1vh;
+    margin-bottom: 16px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color:rgb(255, 255, 255);
+    background-color: #1f1f1f; /* Darker gray background for the input */
+}
+
+
+
+button {
+    background-color: #4e504e;
+    color: #010101;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #767876; /* Darker green on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+.result{
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+/* Add more styles as needed */
+.bit1{
+    background-color: #082355;
+    
+
+}
+
+.bit2{
+    background-color: #082355;
+    margin-left: 100px;
+    
+}
+
+.bit1:hover {
+    /* Add your styles here */
+    background-color: black;
+  }
+  
+  .bit2:hover {
+    /* Add your styles here */
+    background-color: black;
+
+  }
+  .lis {
+    align-items: left;
+    justify-content: left;
+    border-radius: .7rem;
+
+    transition: .5s all;
+    border-radius: 10px;
+    margin-left: 18px;
+    overflow-x: hidden;
+    overflow-wrap: break-word;/* Prevent text wrapping */
+    padding: 7px;
+  }
+  /* Width and height of the scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+/* Track (background) of the scrollbar */
+::-webkit-scrollbar-track {
+  background: #f1f1f100;
+}
+.lin{
+  width: 100%;
+  background-color: black;
+  height: 1px;
+  color: black;
+  display: grid;
+  margin-top: 6px;
+}
+/* Handle (thumb) of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #88888866;
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+  
+  .result {
+    padding-top: 25px;
+    background-color: #282c34;
+  background: linear-gradient(0deg, rgb(13, 29, 60) 0%, rgba(89, 179, 207, 0.548) 100%);
+  box-shadow: 0 7px 20px 5px #00000088;
+  border-radius: .7rem;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  transition: .5s all;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    height: 40vh;
+    width:95vw;
+    overflow-x: auto;
+    white-space: nowrap;
+    border-radius: 10px;
+    color:white
+  }
+  strong {
+    text-align: left;
+    display: block;
+    margin-bottom: -9px;
+  }
+  
+  
+  

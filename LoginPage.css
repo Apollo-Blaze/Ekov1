@@ -1,0 +1,82 @@
+/* LoginPage.css */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(src/bg.avif);
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Set height to viewport height */
+}
+
+.login-container {
+  background-color: #282c34;
+  background: linear-gradient(0deg, rgb(62, 83, 122) 0%, rgba(26, 10, 148, 0.789) 100%);
+  box-shadow: 0 7px 20px 5px #00000088;
+  border-radius: .7rem;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  overflow: hidden;
+  transition: .5s all; /* Blackish gray background */
+    color: #f6f4f4; /* Text color */
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 100px auto;
+    box-shadow: 0 0 10px rgba(37, 16, 76, 0.838);
+    display: flex;
+    flex-direction: column;
+}
+
+.mi {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.op {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #222222;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #656363;
+    border-color: #acafac;
+}
+
+button {
+    background-color: #110962a3; /* Green button color */
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #767876; /* Darker green on hover */
+}
+
+.error-message {
+    color: #ff3333; /* Red error message color */
+    margin-top: 10px;
+}
+ input[type="password"] {
+    color: white; /* Set text color to white */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .mi:focus, input[type="password"]:focus {
+    outline: none;
+    border: 2px solid #5c0202; /* Change border color when input is focused */
+    color: white;
+  }
+
+ 
+    
+  
+/* Add more styles as needed */

@@ -1,0 +1,55 @@
+
+  h1 {
+    color: #e8e8e8;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 8px;
+  }
+
+  /* delete.css */
+.delete-container {
+  justify-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #282c34;
+  background: linear-gradient(0deg, rgba(40,44,52,1) 0%, rgba(17,0,32,.5) 100%);
+  box-shadow: 0 7px 20px 5px #00000088;
+  border-radius: .7rem;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  overflow: hidden;
+  transition: .5s all;
+    margin-top: 0px;
+    align-items: center;
+  }
+  
+  .delete-container h1 {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .delete-container label {
+    display: block;
+    margin-bottom: 0px;
+  }
+  
+  .delete-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+  }
+  
+  .delete-container p {
+    margin-top: 10px;
+    color: #dc3545;
+  }
+  .del{
+    align-items: center;
+    margin-left: 65px;
+  }
+
+  
+  

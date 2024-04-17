@@ -1,0 +1,81 @@
+
+strong {
+  font-weight: bold;
+}
+.all {
+  width: 100%;
+  height: 100%;
+  height:90vh;
+  
+}
+
+.container li {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+li{
+  margin-top:5px;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  flex:column;
+  margin-left: -25px;
+  border-radius: 25px;
+}
+.main{
+  padding:300px;
+  margin-top: 1600px;
+  width:auto;
+  height:2500px;
+}
+h1{
+  margin-top: 50px;
+  margin-bottom: -800px;
+  background-color:rgb(0,0,0,0);
+  margin-left:-18px;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.buybtn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: #282c34;
+  background: linear-gradient(0deg, rgb(13, 29, 60) 0%, rgba(89, 179, 207, 0.548) 100%);
+  border-radius: .7rem;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  overflow: hidden;
+  transition: .5s all;
+  margin-bottom: 10px;
+  width:90vh;
+}
+.container{
+  background-color: red;
+}
+p{
+  color:white;
+  margin-top:14px;
+}
+strong{
+  margin-bottom:2px;
+}
+h2{
+  margin-top:8px;
+}
+.heder{
+  color: rgb(255, 255, 255);
+}
+.bid{
+  background-color: rgb(246, 246, 246);
+  color: black;
+}
